@@ -6,6 +6,7 @@ import Assignment from './component/assignment-1/assignment-1';
 import Counter from './component/counter/counter';
 import List from './component/list/list';
 import Parent from './component/List1/list1';
+import MovieApp from "./component/assignment-movie-app/movie/movie";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,7 +15,8 @@ root.render(
     
     <Assignment/> */}
     {/* <List/> */}
-    <Parent/>
+    {/* <Parent/> */}
+    <MovieApp/>
   </React.StrictMode>
 );
 
