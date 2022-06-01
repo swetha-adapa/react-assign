@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import Assignment from './component/assignment-1/assignment-1';
 import Counter from './component/counter/counter';
 import List from './component/list/list';
+import Parent from './component/List1/list1';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,7 +13,8 @@ root.render(
     {/* <Counter/>
     
     <Assignment/> */}
-    <List/>
+    {/* <List/> */}
+    <Parent/>
   </React.StrictMode>
 );
 
