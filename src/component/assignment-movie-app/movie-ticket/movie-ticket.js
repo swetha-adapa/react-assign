@@ -1,5 +1,9 @@
 import "./movie-ticket.css";
+import { ThemeContext } from "../movie/movie";
+import { useContext } from "react";
 const MovieTicket = (props)=> {
+    const movieCOntext = useContext(ThemeContext);
+    console.log(movieCOntext);
     return (
       <>
         <div className="card">
